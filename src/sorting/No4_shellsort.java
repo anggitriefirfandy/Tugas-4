@@ -9,7 +9,7 @@ package sorting;
  *
  * @author anggit rief irfandy
  */
-public class shell_sort {
+public class No4_shellsort {
 
     /**
      * @param args the command line arguments
@@ -49,10 +49,10 @@ public class shell_sort {
     }
     public static void main(String[] args) {
         // TODO code application logic here
-        int A[] = {25, 7, 9, 13, 3};
-        shell_sort.tampil(A);
-        shell_sort.shellSort(A);
-        shell_sort.tampil(A);
+         int A[] = {25, 7, 9, 13, 3};
+        No4_shellsort.tampil(A);
+        No4_shellsort.shellSort(A);
+        No4_shellsort.tampil(A);
         
         System.out.println("\n");
         System.out.println();

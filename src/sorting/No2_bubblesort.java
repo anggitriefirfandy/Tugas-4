@@ -9,12 +9,12 @@ package sorting;
  *
  * @author anggit rief irfandy
  */
-public class bubble_sort {
+public class No2_bubblesort {
 
     /**
      * @param args the command line arguments
      */
-    public static void bubbleSort(int[] A){
+     public static void bubbleSort(int[] A){
         int i=1, j, n = A.length;
         int temp;
         while (i<n){
@@ -38,10 +38,10 @@ public class bubble_sort {
     }
     public static void main(String[] args) {
         // TODO code application logic here
-        int A[] = {25, 7, 9, 13, 3};
-        bubble_sort.tampil(A);
-        bubble_sort.bubbleSort(A);
-        bubble_sort.tampil(A);
+          int A[] = {25, 7, 9, 13, 3};
+        No2_bubblesort.tampil(A);
+        No2_bubblesort.bubbleSort(A);
+        No2_bubblesort.tampil(A);
         
         System.out.println("\n");
         System.out.println();

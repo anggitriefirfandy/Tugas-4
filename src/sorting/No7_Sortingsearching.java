@@ -9,7 +9,7 @@ package sorting;
  *
  * @author anggit rief irfandy
  */
-public class sorting_searching {
+public class No7_Sortingsearching {
 
     /**
      * @param args the command line arguments
@@ -53,11 +53,11 @@ public class sorting_searching {
         System.out.println("Program Pengurutan InsertionSort dan SequentialSearching");
         int data[] = {25,7,9,13,3};
         System.out.println("Data Sebelum Diurutkan : ");
-        sorting_searching.tampil(data);
-        sorting_searching.Sorting(data);
+        No7_Sortingsearching.tampil(data);
+        No7_Sortingsearching.Sorting(data);
         System.out.println("Data Sesudah Diurutkan : ");
-        sorting_searching.tampil(data);
-        sorting_searching.Searching(data);
+        No7_Sortingsearching.tampil(data);
+        No7_Sortingsearching.Searching(data);
         System.out.println();
         System.out.print("Anggit Rief Irfandy");
     }

@@ -9,7 +9,7 @@ package sorting;
  *
  * @author anggit rief irfandy
  */
-public class selection_sort {
+public class No3_selectionsort {
 
     /**
      * @param args the command line arguments
@@ -39,10 +39,10 @@ public class selection_sort {
     }
     public static void main(String[] args) {
         // TODO code application logic here
-        int A[] = {25, 7, 9, 13, 3};
-        selection_sort.tampil(A);
-        selection_sort.selectionSort(A);
-        selection_sort.tampil(A);
+         int A[] = {25, 7, 9, 13, 3};
+        No3_selectionsort.tampil(A);
+        No3_selectionsort.selectionSort(A);
+        No3_selectionsort.tampil(A);
         
         System.out.println("\n");
         System.out.println();
